@@ -1,3 +1,7 @@
+:root{
+    --titulo-color: #1E90FF;
+}
+
 li{
     margin-bottom: 30px;
 }
@@ -12,5 +16,10 @@ li{
 
 #titulo-principal{
     text-align: center;
-    color: blue;
+    color: var(--titulo-color);
+}
+
+#resultado{
+    text-align: center;
+    color: var(--titulo-color);
 }
