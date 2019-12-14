@@ -1,0 +1,16 @@
+li{
+    margin-bottom: 30px;
+}
+
+#language-tags{
+    width: 100px;
+}
+
+#search{
+    width: 400px;
+}
+
+#titulo-principal{
+    text-align: center;
+    color: blue;
+}
