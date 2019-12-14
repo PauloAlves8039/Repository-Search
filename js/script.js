@@ -5,3 +5,5 @@
  * Data: 13/12/2019
 */
 
+import Data from './data.js'
+
