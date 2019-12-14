@@ -32,6 +32,11 @@ function changeLanguage(){
 	config.languageTag = lang
 }
 
+export function setList(list){
+	sessionStorage.setItem('listItems', JSON.stringify(list))
+	config.listItems = list
+}
+
 function render(){
 	const configParam =  JSON.parse(JSON.stringify(config))
 	templateWorker.postMessage(configParam)
