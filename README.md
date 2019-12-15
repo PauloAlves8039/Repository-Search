@@ -13,6 +13,6 @@ pertencente a formação [Desenvolvedor Front-end Pleno](https://www.treinaweb.c
 <head>
 </head>
 <body>
-	<img src="https://github.com/PauloAlves8039/Repository-Search/blob/master/assets/screenshot/screenshot.png">
+	<img src="https://github.com/PauloAlves8039/Repository-Search/blob/master/assets/screenshot/screenshot1.png">
 </body>
 </html>
