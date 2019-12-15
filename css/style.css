@@ -1,5 +1,6 @@
 :root{
     --titulo-color: #1E90FF;
+    --link-color: #90EE90;
 }
 
 li{
@@ -26,4 +27,8 @@ li{
 #resultado{
     text-align: center;
     color: var(--titulo-color);
+}
+
+.foco:hover{
+    outline: solid var(--link-color);
 }
