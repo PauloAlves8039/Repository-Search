@@ -1,10 +1,21 @@
+@font-face {
+    font-family: FonteTitle;
+    src: url("../assets/fonts/Saira-Bold.ttf");
+}
+
+@font-face {
+    font-family: FonteBody;
+    src: url("../assets/fonts/Armata-Regular.ttf");
+}
+
 :root{
     --titulo-color: #1E90FF;
     --link-color: #90EE90;
 }
 
-li{
+li, a{
     margin-bottom: 30px;
+    font-family: FonteBody;
 }
 
 #language-tags{
@@ -13,6 +24,7 @@ li{
 
 #search{
     width: 400px;
+    font-family: FonteBody;
 }
 
 #titulo-principal{
@@ -22,13 +34,31 @@ li{
 
 #titulo{
     color: var(--titulo-color);
+    font-family: FonteTitle;
+}
+
+#subtitulo{
+    font-family: FonteTitle;
 }
 
 #resultado{
     text-align: center;
     color: var(--titulo-color);
+    font-family: FonteTitle;
+}
+
+#style-font{
+    font-family: FonteBody;
 }
 
 .foco:hover{
     outline: solid var(--link-color);
+}
+
+.footer-body{
+    font-family: FonteBody;
+}
+
+.texto-body{
+    font-family: FonteBody;
 }
